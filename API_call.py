@@ -4,8 +4,8 @@ import requests
 import json
 import urllib
 
-def call_api(ticker, field, from_date, to_date):
-    url_call = 'http://michelaa.pythonanywhere.com/stockdatareaderapi/'+ticker.upper()+'/'+field+'/'+from_date+'/'+to_date+'/'
+def call_api(ticker, from_date, to_date):
+    url_call = 'http://michelaa.pythonanywhere.com/stockdatareaderapi/'+ticker.upper()+'/'+from_date+'/'+to_date+'/'
     r = requests.get(url_call)
     rr = json.loads(r.content)
     return rr
