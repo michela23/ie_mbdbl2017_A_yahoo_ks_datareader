@@ -1,5 +1,5 @@
 # ie_mbdbl2017_A_yahoo_ks_datareader
-This is the package of stock data reader for Group A
+This is the package of stocks data reader for Group A
 
 TEST PUSHING...
 ...
